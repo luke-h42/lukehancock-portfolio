@@ -34,7 +34,7 @@ export default function Contact() {
 };
 
   return (
-  <div className='min-h-screen flex items-center justify-center pt-5 pb-5 font-body'>
+  <div className='min-h-screen flex items-center justify-center pt-5 pb-5 font-body' id="Contact">
     <div className='container mx-auto max-w-screen-xl px-6 '>
       <div className='text-4xl mb-10 '>Contact</div>
       <div className='flex flex-col md:flex-row justify-between'>

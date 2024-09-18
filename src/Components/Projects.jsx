@@ -13,7 +13,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className='bg-gray-100 shadow-inner min-h-screen flex items-center justify-center pt-5 pb-5'>
+    <div className='bg-gray-100 shadow-inner min-h-screen flex items-center justify-center pt-5 pb-5' id="Projects">
     <div className='container mx-auto max-w-screen-xl px-6 '>
     <div className='text-4xl mb-10 font-body'>Projects</div>
     <div className="flex justify-center">

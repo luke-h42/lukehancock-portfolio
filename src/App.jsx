@@ -11,13 +11,13 @@ function App() {
   return (
     <>
     <Navbar />
-    <Element name="Hero">
+    <Element name="Hero" id="Hero">
       <Hero/>
     </Element>
-    <Element name="Projects">
+    <Element name="Projects" id="Projects">
       <Projects/>
     </Element>
-    <Element name="Contact">
+    <Element name="Contact" id="Contact">
       <Contact/>
     </Element>
     <Footer/>

@@ -8,7 +8,7 @@ const openCV = () => {
 
 export default function Hero() {
   return (
-    <div className='flex px-6 min-h-[calc(100vh-56px)] md:min-h-screen container mx-auto max-w-screen-xl pb-5'>
+    <div className='flex px-6 min-h-[calc(100vh-56px)] md:min-h-screen container mx-auto max-w-screen-xl pb-5' id="Hero">
     
     <div className='flex flex-col-reverse md:flex-row items-center md:justify-center justify-evenly'>
       

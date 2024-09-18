@@ -23,7 +23,7 @@ export default function Hero() {
           I look forward to working with you on future projects.
           </div>
           <div className='flex w-full justify-around pt-6 px-10 md:justify-start md:gap-x-20 md:px-0'>
-            <button className="bg-primary outline-none outline-offset-0 hover:outline-black text-black py-2 px-4 md:text-3xl rounded-lg shadow-lg " onClick={openCV}>View CV</button>
+            <button className=" text-white bg-blue-500 hover:bg-blue-600  outline-none outline-offset-0 py-2 px-4 md:text-3xl rounded-lg shadow-lg " onClick={openCV}>View CV</button>
           </div>
         </div>
         <div className=' md:w-1/2 md:flex md:justify-end'>

@@ -1,6 +1,5 @@
 import React from 'react'
-import photo from '../assets/prof-photo.png'
-import { Link } from 'react-scroll'
+import photo from '../assets/prof-photo-blue.png'
 import LukeHancockCV from '../assets/Luke_Hancock - CV.pdf'
 
 const openCV = () => {

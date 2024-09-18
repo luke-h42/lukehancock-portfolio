@@ -41,23 +41,25 @@ export default function Contact() {
       {submitted ? (
         <div>
           <p>Your message has been sent successfully!</p>
-          <button onClick={() => setSubmitted(false)} className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 mt-2">Send another message</button>
+          <button onClick={() => setSubmitted(false)} className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-500 hover:bg-blue-600 mt-2">Send another message</button>
         </div>
       ) : (
           <form className='md:w-8/12' onSubmit={onSubmit}>
           <input type="hidden" name="access_key" value="d9ee3fbc-e36c-4e90-a726-fe4a477e9892"></input>
+          <input type="hidden" name="subject" value="Personal portfolio website message"></input>
+          <input type="hidden" name="from_name" value="Portfolio Message"></input>
           
             <div className="mb-4">
                 <label htmlFor="name" className="block text-sm font-medium mb-2">Name</label>
-                <input type="text" id="name" name="name" className="shadow-sm rounded-md w-full px-3 py-2 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"  required />
+                <input type="text" id="name" name="name" className="shadow-sm rounded-md w-full px-3 py-2 border border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500"  required />
             </div>
             <div className="mb-4">
                 <label htmlFor="email" className="block text-sm font-medium  mb-2">Email</label>
-                <input type="email" id="email" name="email" className="shadow-sm rounded-md w-full px-3 py-2 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"  required />    
+                <input type="email" id="email" name="email" className="shadow-sm rounded-md w-full px-3 py-2 border border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500"  required />    
             </div>
             <div className="mb-4">
                 <label htmlFor="message" className="block text-sm font-medium mb-2">Message</label>
-                <textarea id="message" name="message" rows="10" className="shadow-sm rounded-md w-full px-3 py-2 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"  required />    
+                <textarea id="message" name="message" rows="10" className="shadow-sm rounded-md w-full px-3 py-2 border border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500"  required />    
             </div>
             <button type="submit" disabled={isSubmitting} className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-500 hover:bg-blue-600 ">
               {isSubmitting ? 'Sending...' : 'Send'}

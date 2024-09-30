@@ -1,28 +1,21 @@
-import './App.css'
-import { Element } from 'react-scroll'
-import Navbar from './Components/Navbar'
-import Hero from './Components/Hero'
-import Projects from './Components/Projects'
-import Contact from './Components/Contact'
-import Footer from './Components/Footer'
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./Components/Navbar";
+import Home from "./Pages/Home";
+import NotFound from "./Pages/NotFound";
+import Footer from "./Components/Footer";
 
 function App() {
- 
   return (
     <>
-    <Navbar />
-    <Element name="Hero" id="Hero">
-      <Hero/>
-    </Element>
-    <Element name="Projects" id="Projects">
-      <Projects/>
-    </Element>
-    <Element name="Contact" id="Contact">
-      <Contact/>
-    </Element>
-    <Footer/>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

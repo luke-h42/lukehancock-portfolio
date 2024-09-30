@@ -1,4 +1,4 @@
-![lukehancock dev-projects](https://github.com/user-attachments/assets/b234f664-5d79-40ed-9905-4743a39000f2)# Personal Portfolio page
+# Personal Portfolio page
 
 My personal portfolio website made to showcase all the projects and learning that I've been doing.
 

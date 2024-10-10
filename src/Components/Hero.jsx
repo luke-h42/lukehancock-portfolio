@@ -43,7 +43,7 @@ export default function Hero() {
             <source media="(max-width:768px)" srcSet={photoM}></source>
             <img
               src={photoD}
-              className="size-60 md:size-96 "
+              className="w-60 h-60 md:w-[360px] md:h-[360px]"
               alt="Photo of Luke Hancock"
             ></img>
           </picture>

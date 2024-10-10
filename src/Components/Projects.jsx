@@ -2,9 +2,9 @@ import React from "react";
 import weather from "../assets/weather_dashboard_site_preview1.webp";
 import login from "../assets/login_mern_site_preview1.webp";
 import food from "../assets/recipe_site_preview1.webp";
-import lamyaAkhiyat from "../assets/akhiyatlamya.com1.webp";
-import lukeHancock from "../assets/lukehancock.dev1.webp";
-import swimsuccess from "../assets/swimsuccess1.webp";
+import lamyaAkhiyat from "../assets/akhiyatlamya.com3.webp";
+import lukeHancock from "../assets/lukehancock.dev_3.webp";
+import swimsuccess from "../assets/swimsuccess3.webp";
 import Project_item from "./project-item/project_item";
 
 const projects = [

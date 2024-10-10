@@ -13,7 +13,9 @@ export default function Project_item({
     <div className="flex flex-col bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <a href={live} target="_blank" rel="noopener noreferrer">
         <img
-          className="rounded-t-lg w-full h-72 object-cover opacity-100 hover:opacity-75"
+          className="rounded-t-lg w-full h-72 object-center opacity-100 hover:opacity-75 aspect-auto"
+          loading="lazy"
+          decoding="async"
           src={image}
           alt={alt}
         />

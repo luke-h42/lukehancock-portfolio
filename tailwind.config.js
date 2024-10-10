@@ -7,7 +7,7 @@ export const theme = {
     body: ['Oxygen']
   }, 
   colors: {
-    primary : '#D8E2BE'
+    primary : '#073C92'
   },
 
   }

@@ -1,5 +1,6 @@
 import React from "react";
-import photo from "../assets/prof-photo-blue.png";
+import photoD from "../assets/prof-photo-blueD.webp";
+import photoM from "../assets/prof-photo-blueM.webp";
 import LukeHancockCV from "../assets/Luke Hancock - CV.pdf";
 
 const openCV = () => {
@@ -29,15 +30,23 @@ export default function Hero() {
           </div>
           <div className="flex w-full justify-around pt-6 px-10 md:justify-start md:gap-x-20 md:px-0">
             <button
-              className=" text-white bg-blue-500 hover:bg-blue-600  outline-none outline-offset-0 py-2 px-4 md:text-3xl rounded-lg shadow-lg "
+              className=" text-white bg-blue-600 hover:bg-blue-700  outline-none outline-offset-0 py-2 px-4 md:text-3xl rounded-lg shadow-lg "
               onClick={openCV}
+              aria-label="Opens Luke Hancock's CV"
             >
               View CV
             </button>
           </div>
         </div>
         <div className=" md:w-1/2 md:flex md:justify-end">
-          <img src={photo} className="size-60 md:size-96 "></img>
+          <picture>
+            <source media="(max-width:768px)" srcSet={photoM}></source>
+            <img
+              src={photoD}
+              className="size-60 md:size-96 "
+              alt="Photo of Luke Hancock"
+            ></img>
+          </picture>
         </div>
       </div>
     </div>

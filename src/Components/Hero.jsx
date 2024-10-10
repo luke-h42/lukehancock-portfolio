@@ -1,6 +1,6 @@
 import React from "react";
-import photoD from "../assets/prof-photo-blueD.webp";
-import photoM from "../assets/prof-photo-blueM.webp";
+import photoD from "../assets/prof-photo-blueD2.webp";
+import photoM from "../assets/prof-photo-blueM2.webp";
 import LukeHancockCV from "../assets/Luke Hancock - CV.pdf";
 
 const openCV = () => {

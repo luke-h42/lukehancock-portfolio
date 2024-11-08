@@ -5,9 +5,31 @@ import food from "../assets/recipe_site_preview1.webp";
 import lamyaAkhiyat from "../assets/akhiyatlamya.com3.webp";
 import lukeHancock from "../assets/lukehancock.dev_3.webp";
 import swimsuccess from "../assets/swimsuccess3.webp";
+import droplet from "../assets/dropletwebdesign-preview.webp";
+import navigator from "../assets/navigatorhotel.co.uk_.webp";
 import Project_item from "./project-item/project_item";
 
 const projects = [
+  {
+    title: "Navigator Hotel",
+    src: navigator,
+    alt: "Navigator Hotel preview image",
+    description:
+      "A frontend page for a client, The Navigator Hotel. Designed for the clien'ts hotel to share information about the rooms, restaurant and events. The code is private for client privacy.",
+    technology: "React, Tailwind",
+    live: "https://navigatorhotel.co.uk/",
+    code: "https://navigatorhotel.co.uk/",
+  },
+  {
+    title: "Droplet Web Design",
+    src: droplet,
+    alt: "Droplet web design preview image",
+    description:
+      "A frontend page for my company Droplet Web Design. Designed with optimisation in mind.",
+    technology: "React, Tailwind",
+    live: "https://dropletwebdesign.com/",
+    code: "https://github.com/luke-h42/droplet",
+  },
   {
     title: "SwimSuccess",
     src: swimsuccess,
@@ -43,7 +65,7 @@ const projects = [
     src: login,
     alt: "Login page preview image",
     description:
-      "The login page project was created to test my skills as a backend developer.",
+      "The login page project was created to test my skills as a backend developer. This project has a registration and login with both users and admin access. The admin can add, edit and delete posts and the user can view them when logged in.",
     technology: "React, Express, Tailwind, MongoDB",
     live: "https://login-mern-seven.vercel.app/",
     code: "https://github.com/luke-h42/login-mern",

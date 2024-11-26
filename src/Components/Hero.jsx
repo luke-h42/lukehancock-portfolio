@@ -22,9 +22,9 @@ export default function Hero() {
             I’m <span className="text-2xl">Luke</span>, an aspiring software
             developer. <br />
             <br />
-            With a strong background in mathematics and learning, my journey
-            into coding rapidly grows by applying logical thinking and problem
-            solving whilst analysing every detail as I progress.
+            Web developer with a strong mathematical background, combining
+            logical problem-solving with a keen eye for detail to build
+            efficient, high-quality solutions.
             <br />
             <br />I look forward to working with you on future projects.
           </div>

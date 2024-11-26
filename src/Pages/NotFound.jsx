@@ -8,7 +8,7 @@ function NotFound() {
       </h1>
       <h2>
         <Link
-          to="/"
+          to=""
           className="block text-lg font-medium mt-2 place-self-end underline hover:text-primary"
         >
           Return to safety!

@@ -1,4 +1,5 @@
 import { useState, React } from "react";
+import contactBg from "../assets/Moon.svg";
 
 // Serverless email sending
 
@@ -36,10 +37,16 @@ export default function Contact() {
     <div
       className="min-h-screen flex items-center justify-center pt-5 pb-5 font-body"
       id="Contact"
+      style={{
+        backgroundImage: `url("${contactBg}")`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
     >
-      <div className="container mx-auto max-w-screen-xl px-6 ">
+      <div className=" container mx-auto max-w-screen-xl px-6  ">
         <div className="text-4xl mb-10 ">Contact</div>
-        <div className="flex flex-col md:flex-row justify-between">
+        <div className="flex flex-col xl:flex-row xl:justify-between ">
           {submitted ? (
             <div>
               <p>Your message has been sent successfully!</p>
@@ -52,7 +59,7 @@ export default function Contact() {
               </button>
             </div>
           ) : (
-            <form className="md:w-8/12" onSubmit={onSubmit}>
+            <form className="xl:w-8/12" onSubmit={onSubmit}>
               <input
                 type="hidden"
                 name="access_key"
@@ -131,7 +138,9 @@ export default function Contact() {
           <div>
             <div className="bg-white p-4 mt-3 rounded shadow-lg lg:p-8">
               Luke Hancock <br />
-              lukehancock42@gmail.com
+              <a href="mailto:lukehancock42@gmail.com" className="underline">
+                lukehancock42@gmail.com
+              </a>
             </div>
           </div>
         </div>

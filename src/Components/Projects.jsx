@@ -7,9 +7,20 @@ import lukeHancock from "../assets/lukehancock.dev_3.webp";
 import swimsuccess from "../assets/swimsuccess3.webp";
 import droplet from "../assets/dropletwebdesign-preview.webp";
 import navigator from "../assets/navigatorhotel.co.uk_.webp";
+import bridging from "../assets/bridging-connect.webp";
 import Project_item from "./project-item/project_item";
 
 const projects = [
+  {
+    title: "Bridging Connect",
+    src: bridging,
+    alt: "Bridging Connect preview image",
+    description:
+      "A frontend page run as an internship for Bridging Connect. Completed market research, design and creation of the wordpress page including plugins for forms, SEO and optimisation. Worked alongside the CEO and branding team throughout the project.",
+    technology: "Wordpress",
+    live: "https://bridgingconnect.com",
+    code: "https://bridgingconnect.com",
+  },
   {
     title: "Navigator Hotel",
     src: navigator,

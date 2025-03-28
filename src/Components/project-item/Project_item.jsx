@@ -8,6 +8,7 @@ export default function Project_item({
   technology,
   live,
   code,
+  completed,
 }) {
   return (
     <div className="flex flex-col bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -26,6 +27,10 @@ export default function Project_item({
             {title}
           </h5>
         </a>
+
+        <p className=" mb-3 font-medium text-gray-700 dark:text-gray-400">
+          {completed}
+        </p>
         <p className="flex-1 mb-3 font-normal text-gray-700 dark:text-gray-400">
           {description}
         </p>
